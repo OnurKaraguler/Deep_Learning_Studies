@@ -1,6 +1,6 @@
-## Titanic - Deep Learning from Disaster
+## Customer Churn Analysis
 
-The purpose of the study is to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+This data set contains details of a bank's customers and the target variable is a binary variable reflecting the fact whether the customer left the bank (closed his account) or he continues to be a customer.
 
 The study consists of:<br>
   (1) Importing Libraries<br>
@@ -8,7 +8,7 @@ The study consists of:<br>
   <ul>
       <li>created dataframes by reading cvs files with Pandas</li>
       <li>checked whether the dependent variable is balanced or imbalanced.</li>
-      <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/127742868-d63b26e4-8af7-4929-9e36-f36559ab3549.png">
+          <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/128782908-8fff5875-1094-4754-9e9d-65d7ad01dbd8.png">
       <li>checked for missing values</li>
   </ul>
   
@@ -19,9 +19,11 @@ The study consists of:<br>
               <li>Visualizations</li>
                   <ul>
                     <li>stacked_bar_chart: plot a stacked bar chart to show how a feature is categorized using the independent feature</li>
-                    <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/127743327-a5b9656e-bed2-477f-b48a-16069a10d907.png">
+                    <img height="100"  alt="image" src="https://user-images.githubusercontent.com/58983814/128782985-610590b2-ede2-403a-b4b7-d479aa5c2e85.png">
+                    <li>histogram: plot a histogram to show how a continuous variable is distributed</li>
+                    <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/128783759-2abbf071-3539-43e0-ae61-028c6279f60d.png">
                     <li>box_plot: plot a boxplot to show how the values in the dataset are spread out</li>
-                    <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/127743417-dc07ef52-4904-45b0-b3ad-32fea92ce181.png">
+                    <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/128783086-d21c7b97-6bc1-474f-964f-631d7634da57.png">
                   </ul>
             </ul>
             <ul>
@@ -44,19 +46,13 @@ The study consists of:<br>
                     <li>transform(scale) the mean of a feature to be 0 and the standard deviation to be 1</li>
                   </ul>
             </ul>
-            <ul>
-              <li>Missing value imputation  </li>
-                  <ul>
-                    <li>imputing_missing_values: replace missing values in data with substitute values</li>
-                  </ul>
-            </ul>
         <li>[3.2 Analyze each feature](#32)</li>
               <ul>
                 <li>Each feature examined in depth using related visualization functions</li>
                 <li>Encoded</li>
                 <li>Dropped outliers and standardised</li>
               </ul>
-        <li>[3.3 Feature Engineering](#33)</li>
+        <li>[3.3 Feature engineering](#33)</li>
             <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/127749043-f5b849f7-1f48-4f5b-bfff-300f6a21aa62.png">
               <ul>
                 <li>removed the features that they have at least 99% same value</li>
@@ -66,23 +62,15 @@ The study consists of:<br>
                 <li>best features selected with Univariate feature selection (GenericUnivariateSelect and SelectKBest) based on univariate statistical tests (ANOVA F-value and Mutual Information)</li>
               </ul>
           <li>[3.4 Correlation of the features](#34)</li>
-              <ul>
-                <li>plot the correlation of the features where the correlation with the dependent feature is greater than 0.2</li>
-                <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/127752709-ba5d253b-6af5-4164-ae80-d247493e473a.png">
-              </ul>
+                <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/128784061-72c06d3e-5be4-4198-bb5d-bed45bdbf003.png">
       </ul>
   (4) Create A Neural Network<br>
       <ul>
         <li>Graphs for Neural Network</li>
         <li>Building Artificial Neural Network (ANN)</li>
-            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193067-945a6e52-bf64-4f80-b58a-d7149ec95bb3.png">
+            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129214295-37b09850-4804-4921-b313-e227b8ed7082.png">
         <li>Building Convolutional Neural Network (CNN)</li>
-            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193571-2221b9f1-83db-4070-a832-aab8f4ec2517.png">
+            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129214439-823a90f1-30bb-4162-bc06-6ccf6ab0fa26.png">
         <li>Evaluation of the model</li>
-            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193725-6793f6e1-a947-4df7-ada4-c3c980f3989d.png"> <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193827-804b64fe-2f95-4427-9fc8-24d39200c260.png">
-      </ul>
-  (5) Submission<br>
-      <ul>
-        <li>[5.1 Results on the Kaggle website](#51)</li>
-        <img height="200" alt="image" src="https://user-images.githubusercontent.com/58983814/129194133-0334c9ad-ee6e-4a14-bf3c-8622bea7b8ac.png">
+  <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129214772-97139bd7-3097-47e2-b0c8-6abcbb196810.png"> <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129214539-499b5871-d743-4506-8e9c-8fc4f0b96cf6.png">
       </ul>
