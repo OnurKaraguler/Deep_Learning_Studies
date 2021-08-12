@@ -1,4 +1,4 @@
-## Titanic - Machine Learning from Disaster
+## Titanic - Deep Learning from Disaster
 
 The purpose of the study is to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
 
@@ -71,40 +71,17 @@ The study consists of:<br>
                 <img height="100" alt="image" src="https://user-images.githubusercontent.com/58983814/127752709-ba5d253b-6af5-4164-ae80-d247493e473a.png">
               </ul>
       </ul>
-  (4) Machine Learning Algorithms and Results<br>
+  (4) Create A Neural Network<br>
       <ul>
-        <li>[4.1 Building ML models](#41)</li>
-            <ul>
-              <li>Logistic, Random Forest, Naive Bayes, Support Vector Classification, k-Nearest Neighbours, Stochastic Gradient Descent, Gradient Boosting Trees, xgboost -> XGBClassifier</li>
-            </ul>
-        <li>[4.2 Model selection - final](#42)</li>
-              <ul>
-              <li>best model selected according to the accuracy</li>
-                <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128779894-627ea6e5-c8b4-4000-8748-e5bb31aa0edf.png">
-            </ul>
-        <li>[4.3 Evalueation of the selected model](#43)</li>
-              <ul>
-              <li>finally, feature engineering has been done again with SequentialFeatureSelector. SequentialFeatureSelector chooses the best features based on the cross-validation score of an estimator (the selected best model) to form a feature subset.</li>
-              <li>computed and visually represented confusion matrix to evaluate the accuracy of a classification</li>
-                <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128780166-4e265e4d-9e06-42b7-906d-de27d080136d.png"> <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128780232-e38aa92e-7fec-4062-90da-c4d4b95d70fa.png">
-              <li>Graphs for threshold determination</li>
-                    <ul>
-                      <li>ROC & AUC</li>
-                      <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128780798-20e6e6d4-13c8-4255-af1e-5a9e36e9210c.png">
-                      <li>TPR & TNR - Threshold </li>
-                      <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128780875-188cf512-aa49-4fde-81b0-bba2be5aec4f.png">
-                      <li>Precision(PPV) & NPV - Recall</li>
-                      <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128780964-7d8a095a-cdfb-4927-81d7-dfc9034693b2.png">
-                      <li>Accuracy - Threshold</li>
-                      <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128781082-f2fc47ee-aa96-41c0-93f2-14fbb4f1bf7f.png">
-                    </ul>
-                <li>final Confusion Matrix with the new Threshold</li>
-                <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128781233-3c009afb-3c51-4341-b7dd-258a4b6f621e.png"> <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128781270-d81ed766-61b3-4120-bc2a-3762eb0f08ec.png">
-            </ul>
-      </ul>
+        <li>Graphs for Neural Network</li>
+        <li>Building Artificial Neural Network (ANN)</li>
+            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193067-945a6e52-bf64-4f80-b58a-d7149ec95bb3.png">
+        <li>Building Convolutional Neural Network (CNN)</li>
+            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193571-2221b9f1-83db-4070-a832-aab8f4ec2517.png">
+        <li>Evaluation of the model</li>
+            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193725-6793f6e1-a947-4df7-ada4-c3c980f3989d.png"> <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193827-804b64fe-2f95-4427-9fc8-24d39200c260.png">
   (5) Submission<br>
       <ul>
         <li>[5.1 Results on the Kaggle website](#51)</li>
-              <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/127753765-de7d0ee9-8a94-479c-8d67-556523b0adbb.png"> <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/128781345-7c6aa925-e377-4bd6-8911-d31b4437edc7.png">
+        <img height="200" alt="image" src="https://user-images.githubusercontent.com/58983814/129194133-0334c9ad-ee6e-4a14-bf3c-8622bea7b8ac.png">
       </ul>
-
