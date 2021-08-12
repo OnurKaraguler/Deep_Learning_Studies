@@ -68,9 +68,9 @@ The study consists of:<br>
       <ul>
         <li>Graphs for Neural Network</li>
         <li>Building Artificial Neural Network (ANN)</li>
-            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129214295-37b09850-4804-4921-b313-e227b8ed7082.png">
+            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129218696-1b48629b-a3b9-4bc5-8d10-bb458d8fd5e2.png">
         <li>Building Convolutional Neural Network (CNN)</li>
-            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129214439-823a90f1-30bb-4162-bc06-6ccf6ab0fa26.png">
+            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129218801-88abdd3c-7555-47b9-9bc1-19b27131691b.png">
         <li>Evaluation of the model</li>
-  <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129214772-97139bd7-3097-47e2-b0c8-6abcbb196810.png"> <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129214539-499b5871-d743-4506-8e9c-8fc4f0b96cf6.png">
+  <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129218899-4d3de46e-1a48-4c15-b12a-424c243c3bf7.png"> <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129219008-6a444dd6-db04-4d37-8d00-e7bf575af3ca.png">
       </ul>
