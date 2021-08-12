@@ -80,6 +80,7 @@ The study consists of:<br>
             <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193571-2221b9f1-83db-4070-a832-aab8f4ec2517.png">
         <li>Evaluation of the model</li>
             <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193725-6793f6e1-a947-4df7-ada4-c3c980f3989d.png"> <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129193827-804b64fe-2f95-4427-9fc8-24d39200c260.png">
+      </ul>
   (5) Submission<br>
       <ul>
         <li>[5.1 Results on the Kaggle website](#51)</li>
