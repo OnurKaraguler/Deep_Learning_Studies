@@ -67,10 +67,22 @@ The study consists of:<br>
   (4) Create A Neural Network<br>
       <ul>
         <li>Graphs for Neural Network</li>
-        <li>Building Artificial Neural Network (ANN)</li>
-            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129218696-1b48629b-a3b9-4bc5-8d10-bb458d8fd5e2.png">
-        <li>Building Convolutional Neural Network (CNN)</li>
-            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129218801-88abdd3c-7555-47b9-9bc1-19b27131691b.png">
+        <li>[4.1 Overcoming Class Imbalance using SMOTE](#41)</li>
+          <ul>
+            <li>It is an imbalanced data where the target variable, churn has 79.7% customers not churning and 20.3% customers who have churned</li>
+            <li>SMOTE: Synthetic Minority Oversampling Technique will be used for creating synthesized data</li>
+            <li>A comparative analysis will be done on the dataset using RandomForestClassifier</li>
+            <li>The accuracy metric will be ignored to evaluate the performance of the classifier on this imbalanced dataset</li>
+            <li>Precision, recall, F1-score metrics will be taken into account</li>
+          </ul>
+          <img height="150" alt="image" src="https://user-images.githubusercontent.com/58983814/129427889-fbf96b70-1938-490b-a2b2-3ed41b6f29e5.png">
+        <li>[4.2 Building DL models](#41)</li>
+          <ul>
+            <li>Building Artificial Neural Network (ANN)</li>
+            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129428013-c3f455f7-96cd-4514-a803-a97732a0e55d.png">
+            <li>Building Convolutional Neural Network (CNN)</li>
+            <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129428034-1e56b1b3-d5a0-4fc2-b886-638f4f464f0b.png">
+          </ul>
         <li>Evaluation of the model</li>
-  <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129218899-4d3de46e-1a48-4c15-b12a-424c243c3bf7.png"> <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129219008-6a444dd6-db04-4d37-8d00-e7bf575af3ca.png">
+        <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129428062-e33ee7d0-9c28-40d6-a3c4-9a1c4edbc639.png"> <img height="250" alt="image" src="https://user-images.githubusercontent.com/58983814/129428105-c991a3e3-e7df-489f-9a99-b02b1b1c2d71.png">
       </ul>
